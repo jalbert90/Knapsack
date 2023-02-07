@@ -33,7 +33,7 @@ void solve() {
 
 	int m = knap.size();
 
-	if (m == 0) {
+	if (m == 0 || C < (W - 1) / 2 + 1) {
 		cout << -1;
 		return;
 	}
